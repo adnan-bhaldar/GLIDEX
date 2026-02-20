@@ -1196,11 +1196,9 @@ footer{
     font-size: 1.2rem;
     color: var(--white-color);
 }
-.copyright p span{
+.copyright p a{
     color: var(--prime-color);
     cursor: pointer;
-    font-size: 1.5rem;
-    font-weight: 600;
 }
 .Payment_box{
     display: flex;

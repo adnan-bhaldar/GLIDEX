@@ -46,3 +46,7 @@ var swiper = new Swiper(".testSwiper", {
         prevEl: ".swiper-button-prev",
     },
 });
+
+// DYNAMIC YEAR
+
+document.getElementById('current-year').textContent = new Date().getFullYear();
